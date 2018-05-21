@@ -17,12 +17,32 @@
 		<![endif]-->
 	</head>
 	<body>
-		<div class="container">
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><?= $user ? $user['name'] : 'Anon' ?></a>
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="/">Home</a>
+					</li>
+					<!-- если есть переменная юзер добавить ссылку на logout-->
+					<?php if ($user): ?>	
+					<li>
+						<a href="/logout.php">Logout</a>
+					</li>
+					<!-- иначе добавить 2 ссылки на регистрацию и на логин-->
+					<?php  else:  ?>
+					<li>
+						<a href="/register.php">Register</a>
+					</li>
+					<li>
+						<a href="/login.php">Login</a>
+					</li>
+					<?php endif ?>
+				</ul>
+			</div>
+		</nav>
 
-			<?php 
-			// вызовем анонимную фцию которая будет отрисовывть контент
-			$render_content() ?>
-		</div>
+		<div class="container">	<?php $render_content() ?></div>
 
 		<!-- jQuery -->
 		<script src="//code.jquery.com/jquery.js"></script>
