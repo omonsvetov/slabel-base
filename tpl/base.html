@@ -19,12 +19,13 @@
 	<body>
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
+				<!-- если юзер есть то напишем его имя иначе АНОН-->
 				<a class="navbar-brand" href="#"><?= $user ? $user['name'] : 'Anon' ?></a>
 				<ul class="nav navbar-nav">
 					<li class="active">
 						<a href="/">Home</a>
 					</li>
-					<!-- если есть переменная юзер добавить ссылку на logout-->
+					<!-- если есть переменная юзер(юзер залогинен) добавить ссылку на logout-->
 					<?php if ($user): ?>	
 					<li>
 						<a href="/logout.php">Logout</a>
