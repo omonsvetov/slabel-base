@@ -30,8 +30,10 @@ function register_user($user_array){
 	 	"INSERT INTO users(name, pass, is_admin) VALUES('{$name}', '{$pass}', '{$is_admin}' )");
 	 //если нет ошибок
 	 if(!mysqli_error($conn)){
-	 	header('Location: /');
-	 	exit();
+	 	login_user([
+	 			'name' => $name, 
+				'pass' => $user_array['pass']
+	 	]);
 	 }else{
 	 	echo mysqli_error($conn);
 	 }
@@ -46,6 +48,9 @@ function login_user($user_array){
 	$user = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM users WHERE name = '{$user_array['name']}' "));//получили имя пользователя
 	// если есть совпадения то ето тот же юзер
 	if ($user && password_verify($user_array['pass'], $user['pass'])) {
+		//добавить 1 элемент в этот массив равный массиву
+		$_SESSION['messages'][] = ['success', 'You are successfully logged in'];
+
 	// удаляем из массива юзеров хеш пароля (на всякий случай) 
 		unset($user['pass']);
 		// и записываем это значение в сесию
@@ -56,7 +61,9 @@ function login_user($user_array){
 }
 
 function logout_user(){
-	session_destroy();// удалить всю информацию пользователя
+	//session_destroy();// удалить всю информацию пользователя
+	unset($_SESSION['user']);
+	$_SESSION['messages'][] = ['success', 'You are logged out'];
 	header('Location: /');
 	exit();
 }

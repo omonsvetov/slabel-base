@@ -42,7 +42,18 @@
 				</ul>
 			</div>
 		</nav>
-
+		<!-- если внутри сессии установлена переменая messages, то в таком случае мы присваеваем все ее значение внутрь $messages и выводим ее в циклк форич-->
+		<?php if ($_SESSION['messages']): ?>
+			<div class="container">	
+				<?php while ($msg = array_shift($_SESSION['messages']) ): 
+				// получить первый элемент массива и удалить его из массива?>
+					<div class="alert-<?= $msg[0] ?>">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+						<strong><?= $msg[1] ?></strong>
+					</div>
+				<?php endwhile ?>	
+			</div>
+		<?php endif ?>
 		<div class="container">	<?php $render_content() ?></div>
 
 		<!-- jQuery -->
