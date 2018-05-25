@@ -55,8 +55,7 @@ function login_user($user_array){
 		unset($user['pass']);
 		// и записываем это значение в сесию
 		$_SESSION['user'] = $user;  
-		header('Location: /');
-		exit();
+		end_and_home();
 	}
 }
 
@@ -64,8 +63,66 @@ function logout_user(){
 	//session_destroy();// удалить всю информацию пользователя
 	unset($_SESSION['user']);
 	$_SESSION['messages'][] = ['success', 'You are logged out'];
-	header('Location: /');
+	end_and_home();
+}
+
+function only_for_admin(){
+	global $user;
+	if (!$user || !$user['is_admin']){// если не юзер или юзер не админ
+		$_SESSION['messages'][] = ['danger', 'Only admin allowed to visit this page'];
+		end_and_home();
+	}
+}
+
+function end_and_home(){
+	header('Location: /'); // - перенаправление
+	exit();                // - окончание скрипта.
+}
+
+function get_name_from_post(){
+	if(isset($_POST['name'])){
+		return $_POST['name'];
+	}
+	return NULL;
+}
+
+function save_category($name){
+	global $conn;
+// она будет вызываться аргументом name
+//если наш name будет соответствовать нашим правилам сохранять его, 
+//иначе возвращать сообщение об ошибке
+	if (strlen($name)) {
+		mysqli_query($conn, "INSERT INTO categories(name) VALUE('{$name}')" );
+		//если есть ошибка для текущего соединения
+		if ($error = mysqli_error($conn)) {
+			$_SESSION['messages'][] = ['warning', "Category' {$name}' alredy exists "];
+		} else {
+			$_SESSION['messages'][] = ['success', "Category' {$name}' has been saved "];
+		}
+	} else {
+		$_SESSION['messages'][] = ['danger', 'Name too short'];
+	}
+	header('Location: ' . $_SERVER['REQUEST_URI']);// перенаправляем на текущую страницу
 	exit();
+	
+}
+
+function save_maker($name){
+	global $conn;
+
+	if (strlen($name)) {
+		mysqli_query($conn, "INSERT INTO makers(name) VALUE('{$name}')" );
+		if ($error = mysqli_error($conn)) {
+			$_SESSION['messages'][] = ['warning', "Maker '{$name}' alredy exists "];
+		} else {
+			$_SESSION['messages'][] = ['success', "Maker '{$name}' has been saved "];
+		}
+	} else {
+		$_SESSION['messages'][] = ['danger', 'Name too short'];
+	}
+	header('Location: ' . $_SERVER['REQUEST_URI']);
+	exit();
+	
 }
 
 ?>

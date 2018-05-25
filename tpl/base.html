@@ -30,6 +30,19 @@
 					<li>
 						<a href="/logout.php">Logout</a>
 					</li>
+
+						<?php if ($user['is_admin']): ?>
+						<li>
+							<a href="/admin/add_category.php">Add_Category</a>
+						</li>
+						<li>
+							<a href="/admin/add_maker.php">Add_Maker</a>
+						</li>
+						<li>
+							<a href="/admin/add_item.php">Add_Item</a>
+						</li>
+					<?php endif ?>
+
 					<!-- иначе добавить 2 ссылки на регистрацию и на логин-->
 					<?php  else:  ?>
 					<li>

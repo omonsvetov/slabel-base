@@ -20,3 +20,22 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Server/bin/php/ext
 [Tue May 22 15:26:23.683593 2018] [:error] [pid 2732:tid 828] [client ::1:53509] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\\Server\\www\\tpl\\base.html:45\nStack trace:\n#0 C:\\Server\\www\\init.php(35): include()\n#1 C:\\Server\\www\\register.php(3): require_once('C:\\\\Server\\\\www\\\\i...')\n#2 {main}\n  thrown in C:\\Server\\www\\tpl\\base.html on line 45, referer: http://localhost/register.php
 [Fri May 25 14:46:45.372070 2018] [:error] [pid 2420:tid 792] [client ::1:49430] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE), expecting ',' or ';' in C:\\Server\\www\\init.php on line 40
 [Fri May 25 15:01:28.092773 2018] [:error] [pid 2420:tid 816] [client ::1:49516] PHP Parse error:  syntax error, unexpected '}' in C:\\Server\\www\\functions.php on line 37, referer: http://localhost/
+[Fri May 25 17:24:48.324218 2018] [:error] [pid 2420:tid 816] [client ::1:50299] PHP Notice:  Undefined variable: conn in C:\\Server\\www\\install.php on line 4
+[Fri May 25 17:24:48.324218 2018] [:error] [pid 2420:tid 816] [client ::1:50299] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\Server\\www\\install.php on line 9
+[Fri May 25 17:24:48.324218 2018] [:error] [pid 2420:tid 816] [client ::1:50299] PHP Notice:  Undefined variable: conn in C:\\Server\\www\\install.php on line 12
+[Fri May 25 17:24:48.324218 2018] [:error] [pid 2420:tid 816] [client ::1:50299] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\Server\\www\\install.php on line 15
+[Fri May 25 17:24:48.324218 2018] [:error] [pid 2420:tid 816] [client ::1:50299] PHP Notice:  Undefined variable: conn in C:\\Server\\www\\install.php on line 18
+[Fri May 25 17:24:48.324218 2018] [:error] [pid 2420:tid 816] [client ::1:50299] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\Server\\www\\install.php on line 21
+[Fri May 25 17:24:48.324218 2018] [:error] [pid 2420:tid 816] [client ::1:50299] PHP Notice:  Undefined variable: conn in C:\\Server\\www\\install.php on line 24
+[Fri May 25 17:24:48.324218 2018] [:error] [pid 2420:tid 816] [client ::1:50299] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\Server\\www\\install.php on line 30
+[Fri May 25 17:50:51.839843 2018] [:error] [pid 2420:tid 828] [client ::1:50355] script 'C:/Server/www/admin/category_form.php' not found or unable to stat
+[Fri May 25 17:51:31.281250 2018] [:error] [pid 2420:tid 828] [client ::1:50367] script 'C:/Server/www/admin/add_category.php' not found or unable to stat
+[Fri May 25 18:03:20.587890 2018] [:error] [pid 2420:tid 828] [client ::1:50406] PHP Parse error:  syntax error, unexpected ';', expecting '{' in C:\\Server\\www\\functions.php on line 69
+[Fri May 25 18:06:17.423828 2018] [:error] [pid 2420:tid 828] [client ::1:50419] PHP Parse error:  syntax error, unexpected ';', expecting '{' in C:\\Server\\www\\functions.php on line 76
+[Fri May 25 18:23:07.395507 2018] [:error] [pid 2420:tid 824] [client ::1:50564] script 'C:/Server/www/add_category.php' not found or unable to stat, referer: http://localhost/
+[Fri May 25 18:23:37.881835 2018] [:error] [pid 2420:tid 824] [client ::1:50573] script 'C:/Server/www/add_category.php' not found or unable to stat, referer: http://localhost/
+[Fri May 25 18:23:42.198242 2018] [:error] [pid 2420:tid 824] [client ::1:50573] script 'C:/Server/www/admin/add_maker.php' not found or unable to stat, referer: http://localhost/admin/add_category.php
+[Fri May 25 18:23:47.960937 2018] [:error] [pid 2420:tid 824] [client ::1:50573] script 'C:/Server/www/admin/add_maker.php' not found or unable to stat, referer: http://localhost/admin/add_category.php
+[Fri May 25 18:23:51.190429 2018] [:error] [pid 2420:tid 824] [client ::1:50573] script 'C:/Server/www/admin/add_maker.php' not found or unable to stat, referer: http://localhost/admin/add_category.php
+[Fri May 25 18:23:58.613281 2018] [:error] [pid 2420:tid 824] [client ::1:50595] script 'C:/Server/www/admin/add_item.php' not found or unable to stat, referer: http://localhost/admin/add_category.php
+[Fri May 25 18:46:52.960937 2018] [:error] [pid 2420:tid 824] [client ::1:50631] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in C:\\Server\\www\\functions.php on line 96, referer: http://localhost/admin/add_category.php
