@@ -129,3 +129,243 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Server/bin/php/ext
 PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Server/bin/php/ext\\php_pdo_pgsql.dll' - \xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd.\r\n in Unknown on line 0
 PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Server/bin/php/ext\\php_pgsql.dll' - \xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd.\r\n in Unknown on line 0
 [Sat May 26 10:18:17.993164 2018] [mpm_winnt:notice] [pid 2720:tid 308] AH00354: Child: Starting 64 worker threads.
+[Sat May 26 12:49:18.031250 2018] [:error] [pid 2720:tid 808] [client ::1:50814] PHP Notice:  Undefined variable: destination in C:\\Server\\www\\functions.php on line 146, referer: http://localhost/admin/add_item.php
+[Sat May 26 12:58:42.278320 2018] [:error] [pid 2720:tid 796] [client ::1:50875] PHP Parse error:  syntax error, unexpected '$destination' (T_VARIABLE), expecting ']' in C:\\Server\\www\\functions.php on line 148, referer: http://localhost/admin/add_item.php
+[Sat May 26 13:03:07.753906 2018] [:error] [pid 2720:tid 796] [client ::1:50888] PHP Parse error:  syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING) in C:\\Server\\www\\functions.php on line 139, referer: http://localhost/admin/add_item.php
+[Sat May 26 13:04:10.397460 2018] [:error] [pid 2720:tid 796] [client ::1:50896] PHP Parse error:  syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING) in C:\\Server\\www\\functions.php on line 140, referer: http://localhost/admin/add_item.php
+[Sat May 26 13:04:18.166015 2018] [:error] [pid 2720:tid 796] [client ::1:50904] PHP Parse error:  syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING) in C:\\Server\\www\\functions.php on line 140, referer: http://localhost/admin/add_item.php
+[Sat May 26 13:06:16.030273 2018] [:error] [pid 2720:tid 796] [client ::1:50931] PHP Notice:  Undefined index: image in C:\\Server\\www\\functions.php on line 141, referer: http://localhost/admin/add_item.php
+[Sat May 26 13:06:16.030273 2018] [:error] [pid 2720:tid 796] [client ::1:50931] PHP Notice:  Undefined index: image in C:\\Server\\www\\functions.php on line 142, referer: http://localhost/admin/add_item.php
+[Sat May 26 13:06:54.098632 2018] [:error] [pid 2720:tid 796] [client ::1:50940] PHP Notice:  Undefined index: image in C:\\Server\\www\\functions.php on line 143, referer: http://localhost/admin/add_item.php
+[Sat May 26 13:06:54.098632 2018] [:error] [pid 2720:tid 796] [client ::1:50940] PHP Notice:  Undefined index: image in C:\\Server\\www\\functions.php on line 144, referer: http://localhost/admin/add_item.php
+[Sat May 26 14:23:02.004882 2018] [:error] [pid 2720:tid 796] [client ::1:51253] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:26:07.523437 2018] [:error] [pid 2720:tid 792] [client ::1:51268] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:26:09.142578 2018] [:error] [pid 2720:tid 792] [client ::1:51268] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:26:10.620117 2018] [:error] [pid 2720:tid 792] [client ::1:51268] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:26:44.917968 2018] [:error] [pid 2720:tid 792] [client ::1:51277] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:26:45.666992 2018] [:error] [pid 2720:tid 792] [client ::1:51277] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:28:44.351562 2018] [:error] [pid 2720:tid 792] [client ::1:51282] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:28:45.326171 2018] [:error] [pid 2720:tid 792] [client ::1:51282] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:28:45.910156 2018] [:error] [pid 2720:tid 792] [client ::1:51282] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:29:16.314453 2018] [:error] [pid 2720:tid 792] [client ::1:51291] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:29:17.368164 2018] [:error] [pid 2720:tid 792] [client ::1:51291] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:29:20.038085 2018] [:error] [pid 2720:tid 792] [client ::1:51291] PHP Parse error:  syntax error, unexpected '=' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:30:46.741210 2018] [:error] [pid 2720:tid 792] [client ::1:51303] PHP Parse error:  syntax error, unexpected '=', expecting variable (T_VARIABLE) or '$' in C:\\Server\\www\\index.php on line 7
+[Sat May 26 14:31:36.143554 2018] [:error] [pid 2720:tid 792] [client ::1:51310] PHP Warning:  include(/tpl/items.html): failed to open stream: No such file or directory in C:\\Server\\www\\index.php on line 9
+[Sat May 26 14:31:36.143554 2018] [:error] [pid 2720:tid 792] [client ::1:51310] PHP Warning:  include(): Failed opening '/tpl/items.html' for inclusion (include_path='.;C:\\php\\pear') in C:\\Server\\www\\index.php on line 9
+[Sat May 26 14:38:24.970703 2018] [:error] [pid 2720:tid 792] [client ::1:51319] PHP Warning:  include(/tpl/items.html): failed to open stream: No such file or directory in C:\\Server\\www\\index.php on line 10
+[Sat May 26 14:38:24.970703 2018] [:error] [pid 2720:tid 792] [client ::1:51319] PHP Warning:  include(): Failed opening '/tpl/items.html' for inclusion (include_path='.;C:\\php\\pear') in C:\\Server\\www\\index.php on line 10
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:43:12.205078 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:43:12.206054 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:43:12.206054 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:43:12.206054 2018] [:error] [pid 2720:tid 824] [client ::1:51514] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:48:29.802734 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:48:29.803710 2018] [:error] [pid 2720:tid 792] [client ::1:51695] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:21.734375 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:24.966796 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:52:24.967773 2018] [:error] [pid 2720:tid 824] [client ::1:51893] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:53:45.873046 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:53:45.874023 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:53:45.874023 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:53:45.874023 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:53:45.874023 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:53:45.874023 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:53:45.874023 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:53:45.874023 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5
+[Sat May 26 14:53:45.874023 2018] [:error] [pid 2720:tid 796] [client ::1:52019] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9
+[Sat May 26 14:54:03.340820 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:54:03.340820 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:54:03.340820 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:54:03.340820 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:54:03.340820 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:54:03.341796 2018] [:error] [pid 2720:tid 824] [client ::1:52056] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:12.434570 2018] [:error] [pid 2720:tid 824] [client ::1:52235] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:56:25.902343 2018] [:error] [pid 2720:tid 824] [client ::1:52249] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:43.958984 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:46.779296 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:46.779296 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:46.779296 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:46.779296 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:46.779296 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: category in C:\\Server\\www\\tpl\\items.html on line 5, referer: http://localhost/
+[Sat May 26 14:57:46.780273 2018] [:error] [pid 2720:tid 824] [client ::1:52256] PHP Notice:  Undefined index: maker in C:\\Server\\www\\tpl\\items.html on line 9, referer: http://localhost/
+[Sat May 26 15:27:48.887695 2018] [:error] [pid 2720:tid 824] [client ::1:52288] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 15:30:10.518554 2018] [:error] [pid 2720:tid 824] [client ::1:52301] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 15:30:11.842773 2018] [:error] [pid 2720:tid 824] [client ::1:52301] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 15:35:37.640625 2018] [:error] [pid 2720:tid 824] [client ::1:52388] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 15:36:31.553710 2018] [:error] [pid 2720:tid 824] [client ::1:52400] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 15:37:06.963867 2018] [:error] [pid 2720:tid 824] [client ::1:52407] PHP Parse error:  syntax error, unexpected ';' in C:\\Server\\www\\index.php on line 10, referer: http://localhost/
+[Sat May 26 15:53:55.430664 2018] [:error] [pid 2720:tid 824] [client ::1:52418] PHP Notice:  Undefined variable: category in C:\\Server\\www\\index.php on line 13, referer: http://localhost/
+[Sat May 26 15:53:55.431640 2018] [:error] [pid 2720:tid 824] [client ::1:52418] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 15:54:18.182617 2018] [:error] [pid 2720:tid 824] [client ::1:52428] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 15:59:27.703125 2018] [:error] [pid 2720:tid 824] [client ::1:52447] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 15:59:29.713867 2018] [:error] [pid 2720:tid 824] [client ::1:52447] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 15:59:30.664062 2018] [:error] [pid 2720:tid 824] [client ::1:52447] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 16:00:45.885742 2018] [:error] [pid 2720:tid 824] [client ::1:52462] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 16:03:22.372070 2018] [:error] [pid 2720:tid 824] [client ::1:52473] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
