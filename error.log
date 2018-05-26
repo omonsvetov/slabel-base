@@ -369,3 +369,4 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Server/bin/php/ext
 [Sat May 26 15:59:30.664062 2018] [:error] [pid 2720:tid 824] [client ::1:52447] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
 [Sat May 26 16:00:45.885742 2018] [:error] [pid 2720:tid 824] [client ::1:52462] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
 [Sat May 26 16:03:22.372070 2018] [:error] [pid 2720:tid 824] [client ::1:52473] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/
+[Sat May 26 16:57:45.795898 2018] [:error] [pid 2720:tid 824] [client ::1:52520] PHP Warning:  Invalid argument supplied for foreach() in C:\\Server\\www\\tpl\\items.html on line 1, referer: http://localhost/

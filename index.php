@@ -6,12 +6,13 @@ require_once 'init.php';
 $render_content = function(){
 	global $conn;
 
-	var_export($_GET);
-	$query = '?';
-	foreach ($_GET as $key => $value) {
-		$query .= $key . '=' . $value . '&';
-	}
-	echo trim($query, '&');
+	$get = $_GET;
+	// var_export($_GET);
+	// $query = '?';
+	// foreach ($_GET as $key => $value) {
+	// 	$query .= $key . '=' . $value . '&';
+	// }
+	// echo trim($query, '&');
 	//echo http_build_query($_GET);// простой способ ))
 
 	$category = isset($_GET['category']) ? $_GET['category'] : NULL;
@@ -27,7 +28,7 @@ $render_content = function(){
 	} 
 	$final_condition = count($where_condition) ? 'WHERE' . imploed(' AND', $where_condition) : '' ;
 	
-	$items = mysqli_query($conn, "SELECT model, image_path, catigories.name AS category, makers.name AS maker FROM items JOIN categories ON items.category_id = categories.id
+	$items = mysqli_query($conn, "SELECT items.id AS id, model, image_path, catigories.name AS category, makers.name AS maker FROM items JOIN categories ON items.category_id = categories.id
 			  JOIN makers ON items.maker_id = makers.id" . $final_condition); 
 	
 
