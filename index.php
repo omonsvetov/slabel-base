@@ -1,39 +1,41 @@
 <?php 
 
-require_once 'init.php';
+//echo $_SERVER['REQUEST_URI'];// определяут путь
 
-// ф-ция которая отвечает за отображение всего контента
-$render_content = function(){
-	global $conn;
+//preg_match_all('/\/(\w+)/', $_SERVER['REQUEST_URI'], $parts);
+//разбить наше выражение по следующей структуре... 
+//слеш после которого идут одна или несколько букв либо цифр
+// и все совпадения записать в массив $parts
 
-	$get = $_GET;
-	// var_export($_GET);
-	// $query = '?';
-	// foreach ($_GET as $key => $value) {
-	// 	$query .= $key . '=' . $value . '&';
-	// }
-	// echo trim($query, '&');
-	//echo http_build_query($_GET);// простой способ ))
+//$parts = $parts[1];
+// нам нужны выражения которые находятся в 1-ой подмаске
 
-	$category = isset($_GET['category']) ? $_GET['category'] : NULL;
-	$maker = isset($_GET['maker']) ? $_GET['maker'] : NULL;
-	$where_condition = [];
-	
-	if($category){
-		$where_condition = " categories.name = '{$category}' ";
+//$parts = explode('/', trim ($_SERVER['REQUEST_URI'], '/')); 
+// разобьем эту строку по всем случаям вхождения слеша
 
-	} elseif($maker){
-		$where_condition = " makers.name = '{$maker}' ";
+//array_shift($parts);
+// удалить первый элемент массива, либо с помощью trim
 
-	} 
-	$final_condition = count($where_condition) ? 'WHERE' . imploed(' AND', $where_condition) : '' ;
-	
-	$items = mysqli_query($conn, "SELECT items.id AS id, model, image_path, catigories.name AS category, makers.name AS maker FROM items JOIN categories ON items.category_id = categories.id
-			  JOIN makers ON items.maker_id = makers.id" . $final_condition); 
-	
+include 'tpl/header.html';
 
-	include 'tpl/items.html';
-};
-// подключаем шаблон  base.html
-require 'tpl/base.html';
+switch(TRUE){// совпаде с тем кейсом в котором будет true
+	case preg_match('/^\/(|home)$/', $_SERVER['REQUEST_URI']):
+	// если между началом сторки и концом ничего нет но есть слово home
+		require 'logic/home.php';
+		break;
+	case preg_match('/^\/user$/', $_SERVER['REQUEST_URI']):
+	// если начинается наша строка со слова user и им же заканчивается, подключить 
+		require 'logic/user/user.php';
+		break;
+	default:// иначе (если мы не ожидали) вызвать 404 ошибку
+		require 'logic/404.php';
+		break;
+}
+
+
+include 'tpl/footer.html';
+
+//var_export($parts)
  ?>
+
+ 
