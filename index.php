@@ -16,27 +16,30 @@
 //array_shift($parts);
 // удалить первый элемент массива, либо с помощью trim
 
-include 'tpl/header.html';
+
+require 'base/init.php';
+include TPL_DIR . 'header.html';
+
 
 switch(TRUE){// совпаде с тем кейсом в котором будет true
 	case preg_match('/^\/(|home)$/', $_SERVER['REQUEST_URI']):
 	// если между началом сторки и концом ничего нет но есть слово home
-		require 'logic/home.php';
+		require LGC_DIR . 'home.php';
 		break;
 	case preg_match('/^\/user$/', $_SERVER['REQUEST_URI']):
 	// если начинается наша строка со слова user и им же заканчивается, подключить 
-		require 'logic/user/user.php';
+		require LGC_DIR . 'user/user.php';
 		break;
 	case preg_match('/^\/blog$/', $_SERVER['REQUEST_URI']):
-		require 'logic/blog/blog.php';
+		require LGC_DIR . 'blog/blog.php';
 		break;
 	default:// иначе (если мы не ожидали) вызвать 404 ошибку
-		require 'logic/404.php';
+		require LGC_DIR . '404.php';
 		break;
 }
 
 
-include 'tpl/footer.html';
+include TPL_DIR . 'footer.html';
 
 //var_export($parts)
  ?>
