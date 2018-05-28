@@ -57,3 +57,8 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Server/bin/php/ext
 [Mon May 28 15:07:09.868164 2018] [mpm_winnt:notice] [pid 2764:tid 308] AH00354: Child: Starting 64 worker threads.
 [Mon May 28 15:30:35.094726 2018] [:error] [pid 2764:tid 832] [client ::1:49610] PHP Parse error:  syntax error, unexpected '$_SERVER' (T_VARIABLE) in C:\\Server\\www\\index.php on line 3
 [Mon May 28 15:30:35.611328 2018] [:error] [pid 2764:tid 832] [client ::1:49610] PHP Parse error:  syntax error, unexpected '$_SERVER' (T_VARIABLE) in C:\\Server\\www\\index.php on line 3, referer: http://localhost/asdfasdfasdf
+[Mon May 28 16:27:59.477539 2018] [:error] [pid 2764:tid 824] [client ::1:49838] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\\Server\\www\\index.php on line 22
+[Mon May 28 16:27:59.750000 2018] [:error] [pid 2764:tid 824] [client ::1:49838] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\\Server\\www\\index.php on line 22, referer: http://localhost/
+[Mon May 28 16:29:00.271484 2018] [:error] [pid 2764:tid 824] [client ::1:49854] PHP Notice:  Undefined variable: parts in C:\\Server\\www\\index.php on line 10
+[Mon May 28 16:29:00.539062 2018] [:error] [pid 2764:tid 824] [client ::1:49854] PHP Notice:  Undefined variable: parts in C:\\Server\\www\\index.php on line 10, referer: http://localhost/
+[Mon May 28 16:29:02.481445 2018] [:error] [pid 2764:tid 824] [client ::1:49854] PHP Notice:  Undefined variable: parts in C:\\Server\\www\\index.php on line 10, referer: http://localhost/

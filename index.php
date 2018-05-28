@@ -27,6 +27,9 @@ switch(TRUE){// совпаде с тем кейсом в котором буде
 	// если начинается наша строка со слова user и им же заканчивается, подключить 
 		require 'logic/user/user.php';
 		break;
+	case preg_match('/^\/blog$/', $_SERVER['REQUEST_URI']):
+		require 'logic/blog/blog.php';
+		break;
 	default:// иначе (если мы не ожидали) вызвать 404 ошибку
 		require 'logic/404.php';
 		break;
