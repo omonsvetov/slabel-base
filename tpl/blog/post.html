@@ -1,6 +1,8 @@
 <div class="panel panel-info">
 	<div class="panel-heading">
-		<h3 class="panel-title"><?= $post['title'] ?></h3>
+		<a href="/blog/<?= $post['id'] ?>/update" class="pull-right"><span class="label label-info">Update</span></a>
+		<a href="/blog/<?= $post['id'] ?>/remove" class="pull-right"><span class="label label-danger">Remove</span></a>
+		<h3 class="panel-title"><a href="/blog/<?= $post['id'] ?>"><?= $post['title'] ?></a></h3>
 	</div>
 	<div class="panel-body">
 		<?= $post['content'] ?>

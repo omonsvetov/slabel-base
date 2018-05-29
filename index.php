@@ -38,12 +38,15 @@ switch(TRUE){// совпаде с тем кейсом в котором буде
 	case preg_match('/^\/blog\/(\w+)\/update$/', $_SERVER['REQUEST_URI'], $post_data):
 		require LGC_DIR . 'blog/blog_item_update.php';
 		break;
+	case preg_match('/^\/blog\/(\w+)\/remove$/', $_SERVER['REQUEST_URI'], $post_data):
+		require LGC_DIR . 'blog/blog_item_remove.php';
+		break;
 	case preg_match('/^\/blog\/new-post$/', $_SERVER['REQUEST_URI'], $post_data):
 		require LGC_DIR . 'blog/new.php';
 		break;
 	default:// иначе (если мы не ожидали) вызвать 404 ошибку
 		require LGC_DIR . '404.php';
-		break;
+		break; 
 }
 
 
