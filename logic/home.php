@@ -1,1 +1,6 @@
-<h1>HOMEPAGE</h1>
+<?php 
+
+$additional_templates[] = TPL_DIR . 'home.html';
+
+
+ ?>
